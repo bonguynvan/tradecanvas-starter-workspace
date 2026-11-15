@@ -1,0 +1,13 @@
+/* The grid fills whatever box it is given; it needs a width and a height. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #0b0e14;
+}
+
+#grid {
+  height: 100vh;
+  height: 100dvh; /* the visible height on phones, under the browser's bars */
+  width: 100%;
+}
