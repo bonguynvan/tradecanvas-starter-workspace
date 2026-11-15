@@ -18,6 +18,8 @@ concurrency:
 
 jobs:
   build:
+    # The template's own demo runs on tradecanvas.dev; a copy made from it deploys to its own Pages.
+    if: github.repository != 'bonguynvan/tradecanvas-starter-workspace'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

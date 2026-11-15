@@ -5,6 +5,9 @@ A 2x2 grid of live Binance charts built with [TradeCanvas](https://github.com/bo
 full `ChartWidget`. The crosshair, the interval and scrolling are linked across the charts,
 and the workspace is saved in the browser's localStorage, so it comes back as you left it.
 
+
+Live: https://tradecanvas.dev/starters/workspace/
+
 ![Four live charts in a 2x2 grid: BTCUSDT, ETHUSDT, SOLUSDT and BNBUSDT on 15-minute candles](docs/screenshot.png)
 
 ## Run it
@@ -42,7 +45,7 @@ Or try it without installing anything:
   itself and opened on the next visit. The layouts menu at the top right saves more named
   layouts. To start over, clear the site's storage in the browser.
 - On a phone the grid shows one chart at a time, with a tab per chart.
-- `.github/workflows/pages.yml` publishes the app on GitHub Pages on every push to `main`
+- `.github/workflows/pages.yml` publishes your copy on GitHub Pages on every push to `main`
   (turn it on once under Settings > Pages > Source: GitHub Actions).
 
 ## Use your own data
