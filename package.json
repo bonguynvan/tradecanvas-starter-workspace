@@ -10,7 +10,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@tradecanvas/chart": "^2.9.0"
+    "@tradecanvas/chart": "^2.10.0"
   },
   "devDependencies": {
     "typescript": "~7.0.2",
